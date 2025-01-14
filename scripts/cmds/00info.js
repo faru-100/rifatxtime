@@ -15,17 +15,17 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = " ⩸ᗷᗩᎩᒍᏆᗞ⩸ ";
-		const ownAge = "『 ⩸__17__⩸ 』";
-		const messenger = "https://m.me/100065506668822";
-		const authorFB = "https://www.facebook.com/profile.php?id=BAYJID.500k";
-		const authorNumber = "_01638007072";
-		const Status = "⩸__🆂🅸🅽🅶🅻🅴__⩸";
+		const authorName = " ⸙𝐓𝐀𝐌𝐈𝐌༉ ";
+		const ownAge = "『 ⸙__18+__⸙ 』";
+		const messenger = "https://m.me/brandtamim69";
+		const authorFB = "https://www.facebook.com/brandtamim69";
+		const authorNumber = "_0189398377*";
+		const Status = "ღ𝐒𝐈𝐍𝐆𝐋𝐄༉";
 		const urls = [
-"https://i.imgur.com/I8JSUWI.jpeg",
-"https://i.imgur.com/I8JSUWI.jpeg",
-"https://i.imgur.com/I8JSUWI.jpeg",
-"https://i.imgur.com/I8JSUWI.jpeg"
+"https://i.imgur.com/bIgtOOj.jpeg",
+"https://i.imgur.com/bIgtOOj.jpeg",
+"https://i.imgur.com/bIgtOOj.jpeg",
+"https://i.imgur.com/bIgtOOj.jpeg"
 ];
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
@@ -39,23 +39,23 @@ module.exports = {
 		const uptimeString = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
 
 		message.reply({
-			body: `💫《 ⩸__𝐁𝐨𝐭 𝐀𝐧𝐝 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__⩸ 》💫
-\🤖彡𝐵𝑜𝑡 𝑁𝑎𝑚𝑒 : ⩸__${global.GoatBot.config.nickNameBot}__⩸
-\👾彡𝐵𝑜𝑡 𝑆𝑦𝑠𝑡𝑒𝑚 𝑃𝑟𝑒𝑓𝑖𝑥 : ${global.GoatBot.config.prefix}
-\💙彡𝑂𝑤𝑛𝑒𝑟 𝑁𝑎𝑚𝑒 : ${authorName}
-\📝彡𝐴𝑔𝑒  : ${ownAge}
-\💕彡𝑅𝑒𝑙𝑎𝑡𝑖𝑜𝑛𝑆ℎ𝑖𝑝: ${Status}
-\🌐彡𝑊𝑝 : ${authorNumber}
-\🌍彡𝐹𝑎𝑐𝑒𝑏𝑜𝑜𝑘 𝐿𝑖𝑛𝑘 : ${authorFB}
-\🗓彡𝐷𝑎𝑡𝑒 : ${date}
-\⏰彡𝑁𝑜𝑤 𝑇𝑖𝑚𝑒 : ${time}
-\🔰彡𝐴𝑛𝑦 𝐻𝑒𝑙𝑝 𝐶𝑜𝑛𝑡𝑎𝑐𝑡 :⩸__${messenger}__⩸
-\📛彡𝐵𝑜𝑡 𝐼𝑠 𝑅𝑢𝑛𝑛𝑖𝑛𝑔 𝐹𝑜𝑟 : ${uptimeString}
-    𝑻𝒈: https://t.me/MOHAMMADBAYJID
-    𝑰𝒏𝒔𝒕𝒂: https://www.instagram.com/mr_bayjid120?
-    𝑪𝒂𝒑𝑪𝒖𝒕: copy_bayjid
-    𝑻𝒊𝒌𝑻𝒐𝒌: https://www.tiktok.com/@copy_bayjid?
-    𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/@Bayjid Editz?
+			body: `ღ《 ⩸__𝐁𝐨𝐭 𝐀𝐧𝐝 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__⩸ 》⸙
+\🤖BOT NAME : ⩸__${global.GoatBot.config.nickNameBot}__⩸
+\👾BOT SYSTEM PREFIX : ${global.GoatBot.config.prefix}
+\💙 OWNER NAME: ${authorName}
+\📝AGE  : ${ownAge}
+\💕RELATIONSHIP: ${Status}
+\🌐WP : ${authorNumber}
+\🌍 FACEBOOK LINK : ${authorFB}
+\🗓DATE : ${date}
+\⏰NOW TIME : ${time}
+\🔰ANY HELP CONTACT :⩸__${messenger}__⩸
+\📛BOT I'S RUNNING FOR : ${uptimeString}
+    𝑻𝒈: https://t.me/TAMIMOM69
+    𝑰𝒏𝒔𝒕𝒂: https://www.instagram.com/tamim_4203?igsh=YzljYTk1ODg3Zg==
+    𝑪𝒂𝒑𝑪𝒖𝒕: 𝐓𝐀𝐌𝐈𝐌
+    𝑻𝒊𝒌𝑻𝒐𝒌: 𝐍𝐎𝐓 𝐔𝐒𝐈𝐍𝐈𝐆
+    𝒀𝒐𝒖𝑻𝒖𝒃𝒆: 𝐆𝐎𝐑𝐈𝐁𝐄𝐑 𝐀𝐁𝐀𝐑 𝐘𝐎𝐔𝐓𝐔𝐁𝐑
 \===============`,
 			attachment: await global.utils.getStreamFromURL(link)
 		});
