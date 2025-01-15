@@ -21,7 +21,7 @@ config: {
       age: '18+',
       height: 'Unknown',
       facebookLink: 'https://www.facebook.com/brandtamim69',
-      nick: 'BIJU'
+      nick: '𝐓4𝐀𝐌𝐈9𝐌'
     };
 
     const bold = 'https://i.imgur.com/6FUVqOm.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
@@ -38,13 +38,13 @@ config: {
     fs.writeFileSync(videoPath, Buffer.from(videoResponse.data, 'binary'));
 
     const response = `
-Owner Information:🧾
-Name: ${ownerInfo.name}
-Gender: ${ownerInfo.gender}
-Age: ${ownerInfo.age}
-Height: ${ownerInfo.height}
-Facebook: ${ownerInfo.facebookLink}
-Nick: ${ownerInfo.nick}
+𝐎𝐰𝐧𝐞𝐫 Information:🧾
+𝐍𝐚𝐦𝐞: ${ownerInfo.name}
+𝐆𝐞𝐧𝐝𝐞𝐫: ${ownerInfo.gender}
+𝐀𝐠𝐞: ${ownerInfo.age}
+𝐇𝐢𝐠𝐡𝐭: ${ownerInfo.height}
+𝐅𝐚𝐜𝐛𝐨𝐨𝐤: ${ownerInfo.facebookLink}
+𝐍𝐢𝐜𝐤: ${ownerInfo.nick}
 `;
 
 
