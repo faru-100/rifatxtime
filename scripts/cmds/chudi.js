@@ -1,7 +1,7 @@
 module.exports.config = {
     name: "chudi",
     version: "1.0",
-    role: 1,
+    role: 2,
     author: "Mesbah Bb'e",
     description: "5 বারের জন্য ক্রমাগত বন্ধুর ট্যাগ ট্যাগ করুন\nসেই ব্যক্তিকে আত্মা কলিং বলা যেতে পারে",
     category: "nsfw",
@@ -10,7 +10,7 @@ module.exports.config = {
 }
 module.exports.onStart = async function({ api, args, Users, event}) {
     var mention = Object.keys(event.mentions)[0];
-    if(!mention) return api.sendMessage("বস বায়জিদ খানকিরপুলারে একটা মেনশন দেন-!!🫂", event.threadID);
+    if(!mention) return api.sendMessage("বস তামিম খানকিরপুলারে একটা মেনশন দেন-!!🫂", event.threadID);
  let name =  event.mentions[mention];
     var arraytag = [];
         arraytag.push({id: mention, tag: name});
