@@ -56,7 +56,7 @@ let avt = await new DIG.Gay().getImage(url)
 			const pathSave = `${__dirname}/tmp/gay.png`;
 	fs.writeFileSync(pathSave, Buffer.from(avt));
 		let body = "look.... i found a gay"
-		if(!mention[0]) body="Baka you gay\nforgot to reply or mention someone"
+		if(!mention[0]) body="i found a new gay\nforgot to reply or mention someone"
 		message.reply({body:body,
 attachment: fs.createReadStream(pathSave)
 		}, () => fs.unlinkSync(pathSave));
