@@ -24,7 +24,7 @@ config: {
       nick: '𝐓4𝐀𝐌𝐈9𝐌'
     };
 
-    const bold = 'https://i.imgur.com/6FUVqOm.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
+    const bold = 'https://i.imgur.com/3PP1vt5.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
 
     const tmpFolderPath = path.join(__dirname, 'tmp');
 
