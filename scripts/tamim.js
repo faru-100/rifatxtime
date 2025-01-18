@@ -15,7 +15,7 @@ module.exports = {
  if (event.body && event.body.toLowerCase() === "tamim") {
  return message.reply({
  body: " 「❥︎----ღ᭄_ʜᴇʏ ..\n❥︎----ღ᭄_  ᴮᴿᴼᵀᴴᴱᴿ❞࿐.♡.\nᥫᩣ ɪᴛ’s ᴛᴀᴍɪᴍ\n\n𝐁𝐎𝐓𝐎𝐖𝐍𝐄𝐑\n𝐈𝐓'𝐒 𝐓𝐀𝐌𝐈𝐌」",
- attachment: await global.utils.getStreamFromURL("https://i.imgur.com/2IeVS6V.mp4")
+ attachment: await global.utils.getStreamFromURL("https://i.imgur.com/mBrH36D.mp4")
  });
  }
  }
