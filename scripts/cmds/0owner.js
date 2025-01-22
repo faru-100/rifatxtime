@@ -20,11 +20,11 @@ config: {
       gender: '𝐌𝐀𝐋𝐄',
       age: '18+',
       height: 'Unknown',
-      facebookLink: 'https://www.facebook.com/brandtamim69',
-      nick: '𝐓4𝐀𝐌𝐈9𝐌'
+      facebookLink: 'https://www.facebook.com/profile.php?id=61572376765539',
+      nick: '𝐑𝐢𝐟𝐮'
     };
 
-    const bold = 'https://i.imgur.com/3PP1vt5.mp4'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
+    const bold = 'https://i.imgur.com/fOuOyhK.jpeg'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
 
     const tmpFolderPath = path.join(__dirname, 'tmp');
 
