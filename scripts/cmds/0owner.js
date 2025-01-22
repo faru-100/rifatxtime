@@ -16,12 +16,12 @@ config: {
   onStart: async function ({ api, event }) {
   try {
     const ownerInfo = {
-      name: '𝐓𝐀𝐌𝐈𝐌 𝐀𝐈',
-      gender: '𝐌𝐀𝐋𝐄',
-      age: '18+',
-      height: 'Unknown',
+      name: '𝗛𝗔𝗡𝗝𝗔𝗟𝗔 𝗥𝗜𝗙𝗔𝗧',
+      gender: '𝗠𝗔𝗟𝗘',
+      age: '𝟭𝟵+',
+      height: '𝗨𝗻𝗸𝗻𝗼𝘄𝗻',
       facebookLink: 'https://www.facebook.com/profile.php?id=61572376765539',
-      nick: '𝐑𝐢𝐟𝐮'
+      nick: '𝗥𝗜𝗙𝗨'
     };
 
     const bold = 'https://i.imgur.com/fOuOyhK.jpeg'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
