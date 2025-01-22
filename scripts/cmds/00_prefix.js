@@ -15,13 +15,13 @@ module.exports = {
  if (event.body && event.body.toLowerCase() === "prefix") {
  return message.reply({
  body: `
-Yo, my prefix is [ 𓆩 _</>_ 𓆪 ]\n
+Yo, my prefix is [ 𓆩 _<.>_ 𓆪 ]\n
 𝗦𝗢𝗠𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗧𝗛𝗔𝗧 𝗠𝗔𝗬 𝗛𝗘𝗟𝗣 𝗬𝗢𝗨:
 ➥ &help [number of page] -> see commands
 ➥ &sim [message] -> talk to bot
 ➥ &callad [message] -> report any problem encountered
-➥ &help [command] -> information and usage of command\n\nHave fun using it enjoy!❤️\nBot Developer: https://www.facebook.com/brandtamim69`,
- attachment: await global.utils.getStreamFromURL("https://i.imgur.com/KFCge3F.jpeg")
+➥ &help [command] -> information and usage of command\n\nHave fun using it enjoy!❤️\nBot Developer: https://www.facebook.com/share/182t9uJbjH/`,
+ attachment: await global.utils.getStreamFromURL("https://i.imgur.com/fOuOyhK.jpeg")
  });
  }
  }
