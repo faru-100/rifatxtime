@@ -1,6 +1,6 @@
 module.exports = {
  config: {
-	 name: "tamim",
+	 name: "rifat",
 	 version: "1.0",
 	 author: "AceGun",
 	 countDown: 5,
@@ -12,10 +12,10 @@ module.exports = {
 
  onStart: async function(){}, 
  onChat: async function({ event, message, getLang }) {
- if (event.body && event.body.toLowerCase() === "tamim") {
+ if (event.body && event.body.toLowerCase() === "rifat") {
  return message.reply({
- body: " 「❥︎----ღ᭄_ʜᴇʏ ..\n❥︎----ღ᭄_  ᴮᴿᴼᵀᴴᴱᴿ❞࿐.♡.\nᥫᩣ ɪᴛ’s ᴛᴀᴍɪᴍ\n\n𝐁𝐎𝐓𝐎𝐖𝐍𝐄𝐑\n𝐈𝐓'𝐒 𝐓𝐀𝐌𝐈𝐌」",
- attachment: await global.utils.getStreamFromURL("https://i.imgur.com/mBrH36D.mp4")
+ body: " 「❥︎----ღ᭄_ʜᴇʏ ..\n❥︎----ღ᭄_  ᴮᴿᴼᵀᴴᴱᴿ❞࿐.♡.\nᥫᩣ ɪᴛ'ꜱ ʀɪꜰᴀᴛ\n\n𝐁𝐎𝐓𝐎𝐖𝐍𝐄𝐑\n𝗛𝗔𝗡𝗝𝗔𝗟𝗔 𝗥𝗜𝗙𝗔𝗧」",
+ attachment: await global.utils.getStreamFromURL("https://i.imgur.com/LCuhLJi.mp4")
  });
  }
  }
