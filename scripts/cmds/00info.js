@@ -15,8 +15,8 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = " ⸙𝐓𝐀𝐌𝐈𝐌༉ ";
-		const ownAge = "『 ⸙__18+__⸙ 』";
+		const authorName = " 𝗛𝗔𝗡𝗝𝗔𝗟𝗔 𝗥𝗜𝗙𝗔𝗧 ";
+		const ownAge = "『 𝟭𝟵+ 』";
 		const messenger = "https://m.me/rifatxyz";
 		const authorFB = "𝗵𝘁𝘁𝗽𝘀://𝘄𝘄𝘄.𝗳𝗮𝗰𝗲𝗯𝗼𝗼𝗸.𝗰𝗼𝗺/𝗽𝗿𝗼𝗳𝗶𝗹𝗲.𝗽𝗵𝗽?𝗶𝗱=𝟲𝟭𝟱𝟳𝟮𝟯𝟳𝟲𝟳𝟲𝟱𝟱𝟯𝟵";
 		const authorNumber = "_01339969000";
